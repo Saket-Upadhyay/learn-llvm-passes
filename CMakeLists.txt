@@ -17,11 +17,16 @@ set(CMAKE_BUILD_TYPE Debug)
 
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Linux")
-    find_package(LLVM 14.0 REQUIRED CONFIG)
+    find_package(LLVM 15.0 REQUIRED CONFIG)
 elseif(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
-    find_package(LLVM 14.0 REQUIRED CONFIG)
+    find_package(LLVM 15.0 REQUIRED CONFIG)
 else()
     message(FATAL_ERROR "${CMAKE_SYSTEM_NAME} is not supported yet")
+endif ()
+
+# LLVM_RTTI Configuration
+if (NOT LLVM_ENABLE_RTTI)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti")
 endif ()
 
 list(APPEND CMAKE_MODULE_PATH "${LLVM_CMAKE_DIR}")
