@@ -1,2 +1,2 @@
-# learn-llvm-passes
-A bunch elementary LLVM passes.
+# Learn LLVM Passes
+A bunch of elementary LLVM passes.
