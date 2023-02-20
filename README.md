@@ -1,7 +1,7 @@
 # Learn LLVM Passes
 A bunch of elementary LLVM Analysis and Transformation Passes.
 
-[:gear:] The project was build and tested with LLVM-14 (with the new `PassManager`) on MacOS X 13.x and Ubuntu 22.x.
+:gear: The project was build and tested with LLVM-14 (with the new `PassManager`) on MacOS X 13.x and Ubuntu 22.x.
 
 ## Prerequisites
 #### Linux
@@ -68,4 +68,4 @@ clang -S -emit-llvm helloWorld.cpp
 opt -load-pass-plugin ../build/source/countinstructions/countinst.{so|dylib} -passes="count-intr" -disable-output helloWorld.ll
 ```
 
-[:pencil2:] In the example above, I am not using a transformation pass, it's just an analysis pass, hence I used `-disable-output` to avoid new procesed file from `opt`. Do not use this if you are running a transformation pass.
+:pencil2: In the example above, I am not using a transformation pass, it's just an analysis pass, hence I used `-disable-output` to avoid new procesed file from `opt`. Do not use this if you are running a transformation pass.
