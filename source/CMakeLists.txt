@@ -1,3 +1,4 @@
 add_subdirectory(hellopass)
 add_subdirectory(functionvisitor)
+add_subdirectory(countinstructions)
 
