@@ -14,7 +14,7 @@ namespace llvm {
 
     class HelloPass : public PassInfoMixin<HelloPass> {
     public:
-        PreservedAnalyses run(Function &F, FunctionAnalysisManager &AM);
+        static PreservedAnalyses run(Function &F, FunctionAnalysisManager &AM);
     };
 } //namespace llvm
 

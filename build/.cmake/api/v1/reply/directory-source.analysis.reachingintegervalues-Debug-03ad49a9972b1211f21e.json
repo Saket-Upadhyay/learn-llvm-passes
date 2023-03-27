@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_llvm_library"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/opt/llvm@14/lib/cmake/llvm/AddLLVM.cmake",
+			"source/analysis/reachingintegervalues/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 839,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "riv",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"source/analysis/reachingintegervalues/riv.dylib"
+			],
+			"targetId" : "riv::@8c8791cf7109f7451d01",
+			"targetIndex" : 17,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/analysis/reachingintegervalues",
+		"source" : "source/analysis/reachingintegervalues"
+	}
+}

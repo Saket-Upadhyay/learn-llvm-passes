@@ -1,4 +1,5 @@
-add_subdirectory(hellopass)
-add_subdirectory(functionvisitor)
-add_subdirectory(countinstructions)
-
+add_subdirectory(elementary/hellopass)
+add_subdirectory(elementary/functionvisitor)
+add_subdirectory(elementary/countinstructions)
+add_subdirectory(analysis/reachingintegervalues)
+add_subdirectory(transformations/MBAAdd)

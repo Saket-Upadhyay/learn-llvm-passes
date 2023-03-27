@@ -25,6 +25,7 @@ PreservedAnalyses CountInstr::run(Function &function, FunctionAnalysisManager &f
     functionVisitor(function);
 
     return PreservedAnalyses::all();
+
 }
 
 

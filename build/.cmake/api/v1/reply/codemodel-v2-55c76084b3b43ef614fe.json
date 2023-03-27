@@ -1,0 +1,319 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						16
+					]
+				},
+				{
+					"build" : "source",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-source-Debug-5b5a50b02d94cdb5eb2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source"
+				},
+				{
+					"build" : "source/elementary/hellopass",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-source.elementary.hellopass-Debug-ee3e107b412b762af0a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/elementary/hellopass",
+					"targetIndexes" : 
+					[
+						3,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "source/elementary/functionvisitor",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-source.elementary.functionvisitor-Debug-c7656cfc5c17e44ad43d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/elementary/functionvisitor",
+					"targetIndexes" : 
+					[
+						2,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "source/elementary/countinstructions",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-source.elementary.countinstructions-Debug-0f94d1c53fd8e3eb2601.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/elementary/countinstructions",
+					"targetIndexes" : 
+					[
+						1,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "source/analysis/reachingintegervalues",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-source.analysis.reachingintegervalues-Debug-03ad49a9972b1211f21e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/analysis/reachingintegervalues",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						17
+					]
+				},
+				{
+					"build" : "source/transformations/MBAAdd",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-source.transformations.MBAAdd-Debug-0f8117f12de5e090b770.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "source/transformations/MBAAdd",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "learn-llvm-passes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-Debug-17c41a5e9ddfc4be50d5.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "countinst::@bc8afcac671eafc56e5b",
+					"jsonFile" : "target-countinst-Debug-6471011c3929bf0040f5.json",
+					"name" : "countinst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "functionvisitor::@decf40b3ecc5c434f3c4",
+					"jsonFile" : "target-functionvisitor-Debug-de9714811d6c75ec8d03.json",
+					"name" : "functionvisitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hellopass::@379e96409677798577ca",
+					"jsonFile" : "target-hellopass-Debug-bbbfb553ead242664aae.json",
+					"name" : "hellopass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "install-countinst::@bc8afcac671eafc56e5b",
+					"jsonFile" : "target-install-countinst-Debug-6b016b26f6f17068a666.json",
+					"name" : "install-countinst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "install-countinst-stripped::@bc8afcac671eafc56e5b",
+					"jsonFile" : "target-install-countinst-stripped-Debug-ffeded57a17a3819174c.json",
+					"name" : "install-countinst-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "install-functionvisitor::@decf40b3ecc5c434f3c4",
+					"jsonFile" : "target-install-functionvisitor-Debug-73aa25533d7b4804fb52.json",
+					"name" : "install-functionvisitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "install-functionvisitor-stripped::@decf40b3ecc5c434f3c4",
+					"jsonFile" : "target-install-functionvisitor-stripped-Debug-70b72f24cedc26e35878.json",
+					"name" : "install-functionvisitor-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "install-hellopass::@379e96409677798577ca",
+					"jsonFile" : "target-install-hellopass-Debug-a48dbbe8a9346ce22483.json",
+					"name" : "install-hellopass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "install-hellopass-stripped::@379e96409677798577ca",
+					"jsonFile" : "target-install-hellopass-stripped-Debug-7f346fb0994431af9104.json",
+					"name" : "install-hellopass-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "install-mbapass::@fb75ca424b42c246fa2a",
+					"jsonFile" : "target-install-mbapass-Debug-92da739b8d567842327c.json",
+					"name" : "install-mbapass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "install-mbapass-stripped::@fb75ca424b42c246fa2a",
+					"jsonFile" : "target-install-mbapass-stripped-Debug-61780d72b48b4b8ce9f1.json",
+					"name" : "install-mbapass-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "install-riv::@8c8791cf7109f7451d01",
+					"jsonFile" : "target-install-riv-Debug-d99ec5ce2514846c37a5.json",
+					"name" : "install-riv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "install-riv-stripped::@8c8791cf7109f7451d01",
+					"jsonFile" : "target-install-riv-stripped-Debug-83e8eec0008d7a0d55cc.json",
+					"name" : "install-riv-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-e769b7e67f4c98cbbc3e.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mbapass::@fb75ca424b42c246fa2a",
+					"jsonFile" : "target-mbapass-Debug-9a4a3473fe8aaeaa62cb.json",
+					"name" : "mbapass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-Debug-286f5ff400536034e263.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "riv::@8c8791cf7109f7451d01",
+					"jsonFile" : "target-riv-Debug-a2d7d34dc51afb3b58fe.json",
+					"name" : "riv",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/saketupadhyay/Developer/learn-llvm-passes/build",
+		"source" : "/Users/saketupadhyay/Developer/learn-llvm-passes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

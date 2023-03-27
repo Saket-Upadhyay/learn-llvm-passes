@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_llvm_library"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/opt/llvm@14/lib/cmake/llvm/AddLLVM.cmake",
+			"source/elementary/hellopass/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 839,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "hellopass",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"source/elementary/hellopass/hellopass.dylib"
+			],
+			"targetId" : "hellopass::@379e96409677798577ca",
+			"targetIndex" : 3,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/elementary/hellopass",
+		"source" : "source/elementary/hellopass"
+	}
+}
